@@ -1,0 +1,89 @@
+{
+	"info": {
+		"_postman_id": "4756fb9c-d147-4f0a-8472-04122c7653f1",
+		"name": "New Collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "New Request",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": null
+			},
+			"response": []
+		},
+		{
+			"name": "New Request Copy",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": null
+			},
+			"response": []
+		},
+		{
+			"name": "New Request Copy 2",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "contains",
+							"value": "joke of the day\n",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "?contains=joke%20of%20the%20day\n",
+					"query": [
+						{
+							"key": "contains",
+							"value": "joke%20of%20the%20day\n"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "contains",
+							"value": "joke of the day\n",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3000/abcd?contains=joke of the day\n",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"abcd"
+					],
+					"query": [
+						{
+							"key": "contains",
+							"value": "joke of the day\n"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
